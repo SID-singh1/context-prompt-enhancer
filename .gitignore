@@ -1,0 +1,125 @@
+# --- Operating System files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+venv*/
+ENV/
+.env
+.env.*
+.envrc
+.python-version
+
+# Packaging / distribution
+build/
+dist/
+sdist/
+wheelhouse/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+MANIFEST
+
+# Logs and debugging
+*.log
+logs/
+.dmypy.json
+
+# Unit test / coverage
+.pytest_cache/
+.coverage*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Static analysis / type checking / formatters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Framework-specific (optional)
+instance/
+*.sqlite3
+*.sqlite
+*.db
+celerybeat-schedule*
+
+# Compiled extensions / artifacts
+*.so
+*.dylib
+*.dll
+*.pyd
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.pdb
+
+# --- JavaScript/TypeScript (extension/) ---
+node_modules/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build outputs
+.next/
+.nuxt/
+.out/
+out/
+.turbo/
+.parcel-cache/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+.fleet/
+*.code-workspace
+
+# --- Images / binaries / keys ---
+*.pem
+*.key
+
+# --- Misc ---
+*.orig
+*.rej
+
+# Project-specific ignores
+backend/venv/
